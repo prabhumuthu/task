@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Page</title>
+</head>
+<body>
+    <h2>&#8482||Task Page</h2>
+    <form action="/task4.html">
+<label for="TT">Today Task:</label>  
+     <select id="Tasks">
+             <option value=""></option>
+             <option value="angular">Angular</option>
+             <option value="html">HTML</option>
+             <option value="css">CSS</option>
+            <option value="js">JAVASCRIPT</option>
+    </select>
+    <br>
+    <p>You must select<br>only one task<br>per day</p>
+    <br>
+    <label for="time1">Starting hrs:</label>
+    <input type="time" id="time1" name="time1" required>
+    <label for="time2">Ending hrs:</label>
+    <input type="time" id="time2" name="time2" required>
+    <label for="date">Date:</label>
+    <input type="date" id="time2" name="time2" required>
+    <br>
+    <label for="des">About task:</label>
+    <textarea input type rows="2" cols="10" name="comment" form="description">
+        Enter your description...</textarea>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+    <style>
+        select{color:forestgreen;}
+        body{background-color:wheat;}
+        h2{color:indigo;}
+        h2{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        p{color:darkred;}
+        label{color:darkviolet;}
+    </style>
+</body>
+</html>

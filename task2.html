@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Task Management</title>
+</head>
+<body>
+    <h2>&#8482||Register Page</h2>
+    
+    <form action="/task3.html">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <br>
+        <label for="pw">Password:</label>
+        <input type="password" maxlength="5" id="pw" name="pw" required>
+        <p>The Password must be in:</p>
+        <pre>
+            Starts in capital letter.
+            Atleast one special characters and numbers must be used.
+            Only 5 spaces are allowed.
+        </pre>
+        <label for="cpw">Confirm Password:</label>
+        <input type="password" maxlength="5" id="cpw" name="cpw" required>
+        <br>
+        <label for="email">Company Mail Address:</label>
+        <input type="email" id="cma" name="cma" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <style>
+        h2{color:hotpink;}
+        h2{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+        label{color:tomato;}
+        body{background-color: cornsilk;}
+        p{color:darkorchid;}
+        pre{color:darkred;}
+    </style>
+</body>
+</html>
